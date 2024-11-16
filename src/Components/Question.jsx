@@ -20,6 +20,7 @@ export default function Question({ index, onSelectAnswer, onSkipAnswer }) {
   }
 
   function handleSelectAnswer(answer) {
+    console.log("hello");
     setAnswer({
       selectedAnswer: answer,
       isCorrect: null,
